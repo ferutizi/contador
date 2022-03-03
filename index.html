@@ -6,14 +6,38 @@
 </head>
 <body>
     <div class="container py-5 bg-light text-center">
-        <h1 class="my-3">CONTADOR</h1>
-        <button class="btn btn-primary">
-            Aumentar
-        </button>
-        <button class="btn btn-danger">
-            Disminuir
-        </button>
-        <h5 class="my-4"><span id="span">0</span></h5>
+        <div class="my-4">
+            <h1>CONTADOR</h1>
+        </div>
+        <div class="row">
+            <div class="col-6 d-flex flex-row-reverse bd-highlight"> <!-- izquierda -->
+                <button class="btn btn-primary">
+                    Aumentar
+                </button>
+            </div>
+            <div class="col-6 d-flex flex-row bd-highlight"> <!-- derecha -->
+                <button class="btn btn-danger">
+                    Disminuir
+                </button>
+                <button class="btn10 btn btn-warning ms-5 me-3">
+                    +10
+                </button>
+                <button class="btn2 btn btn-warning">
+                    x 2
+                </button>
+            </div>
+        <div class="my-2">
+            <h5 class="my-4"><span id="span">0</span></h5>
+            <div>
+                <button class="btnReset btn btn-secondary">
+                    Reset
+                </button>
+            </div>
+        </div>
+            
+        </div>
+
+        
     </div>
 
     <script src="contador.js"></script>
